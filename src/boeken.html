@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Walliser reis boeken</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<h1>Walliser reis boeken</h1>
+	<div class="canvas">
+		<h2>Aanbieding</h2>
+		<p>Overnacht op 3100 meter, in het Kulmhotel Gornergrat.<br> Vanaf <strong>CHF 526,-</strong> voor 5 nachten, per persoon in een tweepersoonskamer, inclusief ontbijt en diner. 3100 Kulmhotel Gornergrat bevindt zich in Gornergrat en is het hoogstgelegen hotel in de Zwitserse Alpen, en is het basiskamp van een hoge bergketen. Het hotel biedt elegante kamers met gratis WiFi. Dit afgelegen hotel beschikt over een eigen planetarium, een bibliotheek en een winkelcentrum, en biedt een prachtig uitzicht op 29 Alpentoppen van 4000 meter hoog. Het uitkijkplatform van Gornergrat en de gebieden rond het hotel zijn alleen bereikbaar via een reguliere treindienst, vanuit het autovrije Zermatt reist u dan 40 minuten door het schilderachtige platteland.</p>
+		<img src="images/wallis_zermatt.jpg" alt="Hotel op berg in Zermatt">
+		<img src="images/wallis_gletsjer.jpg" alt="Uitzicht op Monte Rosa">
+		<h2>Reserveren</h2>
+		<form method="post" action="boeken.html">
+			Persoonsgegevens:<br>
+			<input type="text" name="voornaam"> Voornaam<br>
+			<input type="text" name="achternaam"> Achternaam<br>
+			<input type="text" name="straat"> Straat<br>
+			<input type="text" name="woonplaats"> Woonplaats<br>
+			<input type="text" name="postcode"> Postcode<br>
+			<select name="land">
+				<option value="1">Belgi&euml;</option>
+				<option value="2">Nederland</option>
+			</select> Land<br>
+			<input type="text" name="telefoonnummer"> Telefoonnummer<br>
+			<input type="text" name="gsm"> GSM nummer<br>
+			<input type="text" name="emailadres"> Emailadres<br>
+			Kamerkeuze:<br>
+			<select multiple>
+				<option value="a">Tweepersoons kamer 2 aparte bedden in toren CHF 576,-</option>
+				<option value="b">Tweepersoons kamer queen bed Matterhorn uitzicht CHF 526,-</option>
+				<option value="c">Tweepersoons kamer 2 aparte bedden Monte Rosa uitzicht CHF 616,-</option>
+				<option value="d">Junior Suite queen bed Matterhorn uitzicht CHF 544,-</option>
+				<option value="e">Junior Suite 2 aparte bedden Matterhorn uitzicht CHF 575,-</option>
+				<option value="f">Tweepersoons kamer queen bed in toren CHF 589,-</option>
+			</select><br>
+			<select>
+				<option value="1">1 volwassene</option>
+				<option value="2">2 volwassenen</option>
+			</select> Volwassenen<br>
+			<select>
+				<option value="1">1 kind</option>
+				<option value="2">2 kinderen</option>
+			</select>Kinderen<br>
+			<input type="checkbox" value="huisdier"> Ik neem mijn huisdier mee<br>
+			Betaalwijze:<br>
+			<input type="radio" name="Betaalwijze" value="Creditcard"> Creditcard<br>
+			<input type="radio" name="Betaalwijze" value="iDEAL"> iDEAL<br>
+			<input type="radio" name="Betaalwijze" value="Bancontact/Mister Cash"> Bancontact/Mister Cash<br>
+			<input type="radio" name="Betaalwijze" value="Mastercard"> Mastercard<br>
+			<input type="radio" name="Betaalwijze" value="Visa card"> Visa card<br>
+			<textarea></textarea> Speciale wensen<br>
+			<input type="checkbox" value="Voorwaarden"> Ik ga akkoord met <a href="bereikbaarheid.html">de voorwaarden</a><br><br>
+			<input type="submit" value="Hotelkamer reserveren">
+		</form><br>
+		<img src="images/wallis_hotel.jpg" alt="Hotelkamer interieur">
+		<img src="images/wallis_torenkamer.jpg" alt="Torenkamer hotel interieur">
+		<hr>
+		<h2>Contacteren</h2>
+		<address>3100 Kulmhotel Gornergrat<br>
+		Gornergrat<br>
+		3920 Zermatt<br>
+		Telefoon  +41 27 966 64 00<br>
+		<a href="mailto=gornergrat.kulm@matterhorn-group.ch">gornergrat.kulm@matterhorn-group.ch</a><br>
+		</address>
+
+			<div class="footer">
+				<ul>
+					<li>2021</li>
+					<li>Anton Velthuizen</li>
+				</ul>
+			</div>
+	</div>
+	<div class="navigatie">
+		<ul>
+			<li><a href="index.html">Walliser Cultuur en natuur</a></li>
+			<li><a href="activiteiten.html">Activiteiten</a></li>
+			<li><a href="keuken.html">Walliser keuken</a></li>
+			<li><a href="bereikbaarheid.html">Bereikbaarheid</a></li>
+			<li><a href="boeken.html" class="active">Reis boeken</a></li>
+		</ul>
+	</div>
+	<div class="home">
+    	<a href="index.html">
+      		<img src="images/valais.png" title="home" alt="Vlag van Wallis">
+    	</a>
+	</div>
+</body>
+</html>

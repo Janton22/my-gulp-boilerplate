@@ -1,0 +1,166 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+body{
+	font-size: 16px;
+	font-family: "Roboto Regular 400;", Helvetica, Arial, sans-serif;
+	color: #333;
+	line-height: 25px;
+	padding: 5px 15%;
+	line-height: 28px;
+	background: url("../images/swiss_flags2.png") no-repeat fixed 50% 100%, #0099FF url("../images/gradient.png") repeat-x fixed 0% 100%;
+}
+header{
+	background-color: rgba(255, 255, 255, 0.60);
+	border-radius: 20px;
+	padding: 10px 20px;
+	border: 1px solid #FFF;
+}
+
+footer{
+	background-color: rgba(255, 255, 255, 0.60);
+	border-radius: 20px;
+	padding: 10px 20px;
+	border: 1px solid #FFF;
+}
+
+main{
+	background-color: rgba(255, 255, 255, 0.60);
+	border-radius: 20px;
+	padding: 10px 20px;
+	border: 1px solid #FFF;
+}
+
+div.canvas{
+	background-color: rgba(255, 255, 255, 0.60);
+	border-radius: 20px;
+	padding: 10px 20px;
+	border: 1px solid #FFF;
+}
+div.home{
+	border-radius: 10px;
+	position: fixed;
+	bottom: 70px;
+	left: 5%;
+}
+div.footer{
+	color: #CCC;
+	background-color: #FFF;
+	font-size: 14px;
+	height: 70px;
+	border-top: 1px solid #DDD;
+	margin-top: 30px;
+}
+div.footer ul{
+	Margin-top: 0px;
+	list-style-type: none;
+	text-align: center;
+}
+div.footer li{	
+	display: inline;
+	padding: 0px;
+}
+div.navigatie{
+	color: #CCC;
+	background-color: #FFF;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+}
+div.navigatie ul{
+	list-style-type: none;
+	margin:  0px;
+	padding:  0px;
+	text-align: center;
+}
+div.navigatie li{	
+	display: inline;
+	padding: 0px;
+}
+div.navigatie li a{
+	color: #FFF;
+	background-color: #e10a08;
+	padding: 3px 10px;
+	border:  1px #000 solid;
+	text-decoration: none;	
+}
+div.navigatie li a:hover, div.navigatie li a.active{
+	color: #FFF;
+	background-color: #F60;
+}
+p{
+	margin-top: 0px;
+	color: #000;
+}
+h1, h2, h3, h4, h5{
+	color: #000;
+	margin-bottom: 0px;
+}
+h1{
+	color: #FFF;
+	background-color: transparent;
+	font-size: 2.25rem;
+	margin-bottom: 20px;
+}
+h2{
+	color: #333;
+	font-size: 1.25rem;
+	background-image: url('../images/star.png');
+	background-repeat: no-repeat;
+	padding-left: 26px;
+}
+h3{
+	font-size: 1.12rem;
+}
+ul{
+	list-style-type: square;
+	margin-left: 10px;
+}
+ol{
+	list-style-type: lower-alpha;
+	margin-left: 10px;
+}
+table{
+	width: 100%;
+	border-radius: 15px;
+	padding: 10px;
+
+	border:  1px #FFF solid;
+	background-color: rgba(255, 255, 255, 0.30);
+}
+td, th{
+	padding: 3px;
+	text-align: left;
+}
+tr:nth-child(2n+2){  
+  	color: #333;
+  	background-color: #EEE;
+}
+select, input, textarea{
+	color: #333;
+  	background-color: #EEE;
+  	font-family: "Roboto Regular 400;", Helvetica, Arial, sans-serif;
+  	font-size: 16px;
+  	width: auto; 
+  	padding: 2px;
+  	margin: 2px;	
+}
+form{
+  	padding: 12px;
+  	margin: 12px;
+  	border: 1px solid #FFF;
+  	border-radius: 15px;
+  	background-color: rgba(255, 255, 255, 0.20);	
+}
+hr{
+	color: #FFF;	
+}
+address{
+	padding: 5px;
+  	margin-left: 10px;
+  	border-left: 3px solid #F00;
+}
+div.canvas img{
+	  	border-radius: 15px;
+}
